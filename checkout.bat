@@ -7,3 +7,5 @@ call git add *
 call git commit -m "CI Commit"
 
 call git push origin test 
+
+exit
