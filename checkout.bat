@@ -1,7 +1,7 @@
 call git checkout test
 call git fetch origin
 
-echo "X" > log.txt
+echo %date% > log.txt
 
 call git add *
 call git commit -m "CI Commit"
